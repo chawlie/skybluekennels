@@ -1,0 +1,433 @@
+body,
+h1, h2, h3, h4, h5, p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+}
+
+.primary-nav {
+    margin-top: 85px;
+    text-align: right;
+}
+
+/* Small only */
+    @media screen and (max-width: 39.9375em) {
+        .primary-nav  {
+            text-align: center;
+            margin-top: 20px;
+        }
+    }
+
+.primary-nav ul {
+    list-style: none;
+}
+
+.primary-nav ul li {
+    display: inline-block;
+    margin-left: 10px;
+}
+    @media screen and (max-width: 39.9375em) {
+        .primary-nav ul li {
+            display: block;
+            margin-left: 0;
+        }
+    }
+
+.primary-nav a {
+    text-transform: uppercase;
+    font-size: 18px;
+}
+    @media screen and (max-width: 39.9375em) {
+        .primary-nav a {
+            width: 100%;
+            font-size: 16px;
+        }
+    }
+
+.page-wrapper {
+    max-width: 1350px;
+    background-color: #004986;
+    margin: 0 auto;
+}
+
+body {
+    background-color: #151515;
+}
+
+    /* Small only */
+    @media screen and (max-width: 39.9375em) {
+        .section-container {
+            padding: 0 10px;
+        }
+    }
+
+.header-logo {
+    margin-top: 30px;
+}
+
+    /* Small only */
+    @media screen and (max-width: 39.9375em) {
+        .header-logo  {
+            text-align: center;
+        }
+    }
+
+.banner {
+    background-color: #242323;
+    color: #fff;
+}
+
+.blue {
+    color: #00adee;
+    text-transform: uppercase;
+}
+
+.orange {
+    color: #f9ac2a;
+    text-transform: uppercase;
+}
+
+.hero-content {
+    margin-top: 40px;
+}
+
+.hero-content h1 {
+    line-height: 1.25;
+    margin-bottom: 20px;
+}
+
+.hero-content h2 {
+    margin: 0;
+    line-height: 1.25;
+}
+
+.hero {
+    background: url(../images/hero_dogs.jpg) no-repeat center top;
+    background-size: cover;
+    color: #fff;
+}
+
+    /* Small only */
+    @media screen and (max-width: 39.9375em) {
+        .hero {
+            background: none;
+        }
+    }
+
+.hero span {
+    font-size: 24px;
+    display: block;
+}
+
+.hero a.phone {
+    color: #333;
+    font-size: 44px;
+    line-height: 1;
+    display: block;
+}
+
+.hero a.email {
+    color: #fff;
+    font-size: 18px;
+}
+
+.mobile-hero {
+    margin-top: 30px;
+    border: 5px solid #7ce2ff;
+}
+
+.call-to-action {
+    background-color: #00adee;
+    color: #fff;
+    margin: 40px auto 60px;
+    padding: 30px;
+    width: 370px;
+}
+
+    /* Small only */
+    @media screen and (max-width: 39.9375em) {
+        .call-to-action {
+            width: auto;
+            padding: 30px 0;
+        }
+    }
+
+.kennel-details h1 {
+    font-size: 36px;
+    padding: 30px 0;
+    margin: 0;
+}
+
+/* Small only */
+    @media screen and (max-width: 39.9375em) {
+        .kennel-details h1 {
+            font-size: 24px;
+        }
+    }
+
+.kennel-details .callout-box {
+    background-color: #3e3f43;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.kennel-details .callout-box h2 {
+    font-size: 18px;
+}
+
+.kennel-details .callout-box h3 {
+    font-size: 28px;
+}
+/* Location */
+.location {
+    margin: 60px 0;
+}
+
+.location h1 {
+    font-size: 30px;
+    color: #fff;
+}
+
+/* Small only */
+    @media screen and (max-width: 39.9375em) {
+        .location h1 {
+            font-size: 24px;
+        }
+    }
+
+.location h2 {
+    font-size: 24px;
+    color: #fff;
+    font-weight: normal;
+}
+
+.location h3 {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.location-content {
+    margin-bottom: 30px;
+}
+
+.location-map {
+    border: 5px solid orange;
+    padding: 0;
+    line-height: 0;
+}
+
+iframe {
+    border: 0;
+    margin: 0;
+}
+
+.orbit-previous, .orbit-next {
+    font-family: Arial;
+}
+
+/* Slide Show */
+.slide-show {
+    margin: 40px 0 0;
+    color: #000;
+}
+
+.slide-show h1 {
+    color: #FFF;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+/* Small only */
+    @media screen and (max-width: 39.9375em) {
+        .slide-show h1 {
+            font-size: 24px;
+        }
+    }
+
+.slide-show img {
+    border: 5px solid #7ce2ff;
+}
+
+/* Footer */
+.footer {
+    color: #fff;
+    padding: 30px 0 50px;
+}
+
+.footer p {
+    font-size: 34px;
+    margin: 0;
+    padding: 30px 0 0;
+}
+
+/* Small only */
+    @media screen and (max-width: 39.9375em) {
+        .footer p {
+            font-size: 24px;
+        }
+    }
+
+.footer a {
+    font-size: 30px;
+    color: #00adee;
+}
+
+.orbit-container {
+}
+
+/* Dog Training */
+
+.full-width {
+    width: 100%;
+    float: left;
+    margin: 0 auto;
+    background-color: #00adee;
+}
+
+.margin-zero {
+    padding: 0;
+}
+
+.training-info {
+    padding: 50px;
+}
+
+.dog-training h1 {
+    color: #fff;
+}
+
+.dog-training h2 {
+    color: #00adee;
+}
+
+.dog-training h3 {
+    color: #333;
+}
+
+.dog-training p {
+    color: #fff;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.dog-training .hero-content {
+    margin-bottom: 50px;
+}
+
+.dog-training .call-to-action {
+    margin: 0 0 30px;
+}
+
+.free-goals-eval h2 {
+    font-size: 36px;
+    padding: 30px 0;
+    margin: 0;
+}
+
+/* Small only */
+    @media screen and (max-width: 39.9375em) {
+        .free-goals-eval h2 {
+            font-size: 24px;
+        }
+    }
+
+.free-goals-eval .callout-box {
+    background-color: #3e3f43;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.free-goals-eval .callout-box p{
+    font-size: 20px;
+    padding: 15px 20px;
+}
+
+.free-goals-eval .callout-box h2 {
+    font-size: 18px;
+}
+
+.free-goals-eval .callout-box h3 {
+    font-size: 28px;
+}
+
+.call-for-training {
+    background-color: #00adee;
+    padding: 20px 0;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+.call-for-training a {
+    color: #333;
+}
+
+.call-for-training .phone {
+    font-size: 40px;
+    line-height: 1;
+}
+
+.call-for-training a.email {
+    color: #fff;
+}
+
+/* Board Train Program Details and Cost */
+
+.board-train-pricing h1 {
+    margin: 30px 0 20px;
+}
+
+.btp-container {
+    background-color: #fff;
+    margin-bottom: 30px;
+    min-height: 315px;
+}
+
+.btp-title {
+    background-color: #00adee;
+    color: #fff;
+}
+
+.btp-title.orange-title {
+    background-color: #f9ac2a;
+}
+
+.btp-title.orange-title h2 {
+    color: #333;
+    text-align: left;
+    font-size: 24px;
+    padding-left: 30px;
+}
+
+.btp-title h2 {
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.btp-details {
+    padding: 30px;
+}
+
+.btp-details p {
+    color: #333;
+    font-size: 18px;
+}
+
+.btp-number {
+    color: #f9ac2a;
+    font-size: 22px;
+}
+
+.btp-cost {
+    font-size: 30px;
+}
+
+.private-lesson-image {
+    min-height: 315px;
+    background-image: url(../images/rachel_training.jpg);
+    background-size: cover;
+}
+
+.private-lessons .btp-container {
+    float: left;
+}
